@@ -1,0 +1,157 @@
+
+header{
+    background-color: #ee4d2d;
+    font-size: .825rem;
+    margin-bottom: 20px;
+}
+.menu1 ul li a {
+    color: white;
+}
+.menu1 .icons{
+    font-size: 23px;
+    margin-right: 10px;
+}
+.menu1 ul li a:hover {
+    color: rgb(178, 175, 175);
+}
+.vl {
+    border-left: 2px solid rgba(228, 230, 228, 0.728);
+    height: 15px;
+    margin-top: 10px;
+}
+.menu2{
+    margin-top: 10px;
+}
+.menu2 .small ul li a{
+    margin-top: -10px;
+    margin-left: 20px;
+}
+.menu2 .row .buy{
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+}
+.carousel-inner .carousel-item img{
+    width: 100%;
+    height: 350px;
+}
+content .row .img-a{
+    margin-bottom: 6px;
+}
+content .row{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.row .border a{
+    font-size: .875rem;
+    -webkit-text-size-adjust: none;
+    font-family: Helvetica Neue,Helvetica,Arial,文泉驛正黑,WenQuanYi Zen Hei,Hiragino Sans GB,儷黑 Pro,LiHei Pro,Heiti TC,微軟正黑體,Microsoft JhengHei UI,Microsoft JhengHei,sans-serif;
+    line-height: 1.2;
+    background-color: transparent;
+    color: inherit;
+    text-decoration: inherit;
+}
+.menu2 .icon-shopee-logo{
+    margin-left: 40px;
+    fill: #fff;
+    overflow: hidden;
+    display: block;
+    width: 162px;
+    height: 50px;}
+.xZ4bbg {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    width: 1200px;
+    margin: 10px auto 0;
+    min-height: 108px;
+}
+.xZ4bbg a {
+    color: inherit;
+    text-decoration: inherit;
+}
+div {
+    display: block;
+}
+._2Ehn-F {
+    margin: 18px auto 8px;
+}
+.ybDQTz {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.dNmwQY {
+    height: 100%;
+    border-radius: 0;
+}
+.n-CE6j {
+    position: relative;
+}
+._5l6amx, .LLE7qG {
+    height: 100%;
+}
+.edy5hG {
+    opacity: 1;
+    transition: opacity .2s ease;
+}
+.KSe2W7 {
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: .8125rem;
+    line-height: .875rem;
+    max-width: 150px;
+    margin-bottom: 8px;
+    word-wrap: break-word;
+    overflow: hidden;
+    }
+.TF67TG {
+    color: #222;
+    letter-spacing: 0;
+    text-align: center;
+}
+.shopee-content .img-b{
+    margin-top: 20px;
+    margin-left: 55px;
+    margin-bottom: 20px;
+}
+.shopee-content{
+    background-color: rgba(231, 226, 226, 0.963);
+}
+.shopee-content .hd{
+    height: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: #fff;
+}
+.img-s {
+transition: transform .2s;
+    width: 150px;
+    height: 180px;
+    margin: 0 auto;
+  }
+  /*Hiệu ứng zoom*/
+  .img-s:hover {
+    transform: scale(1.2);
+  }
+.card{
+    border: none;
+    margin-top: -10px;
+    height: 100%;
+    width: 100%;
+}
+.card img{
+    margin: auto;
+    width: 90px;
+    height: 90px;
+}
+.card .card-body .card-text{
+    font-size: .875rem;
+    text-decoration: none;
+    color: #222;
+}
+.card .card-body .card-text:hover {
+    color:#ee4d2d
+}
