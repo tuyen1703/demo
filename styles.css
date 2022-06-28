@@ -1,4 +1,6 @@
-
+body a{
+    text-decoration: none;
+}
 header{
     background-color: #ee4d2d;
     font-size: .825rem;
@@ -31,14 +33,14 @@ header{
     font-size: 30px;
     margin-left: 30px;
 }
-.carousel-inner .carousel-item img{
+.b .carousel-inner .carousel-item img{
     width: 100%;
-    height: 350px;
+    height: 450px;
 }
 content .row .img-a{
-    margin-bottom: 6px;
+    margin-bottom: 10px;
 }
-content .row{
+content .row {
     margin-left: 15px;
     margin-right: 15px;
 }
@@ -136,22 +138,108 @@ transition: transform .2s;
   .img-s:hover {
     transform: scale(1.2);
   }
+.shopee-fl{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.search-hot hr:not([size]) {
+    height: 5px;
+    width: 50px;
+    margin-top: 60px;
+    margin-left: -15px;
+    color:#ee4d2d;
+}
 .card{
+    text-align: center;
     border: none;
     margin-top: -10px;
     height: 100%;
     width: 100%;
 }
-.card img{
+.shopee-content .card img{
     margin: auto;
     width: 90px;
     height: 90px;
 }
-.card .card-body .card-text{
+.shopee-content .card .card-body .card-text{
     font-size: .875rem;
     text-decoration: none;
     color: #222;
 }
 .card .card-body .card-text:hover {
-    color:#ee4d2d
+    color:#ee4d2d;
 }
+.sQ9tKt {
+    background-color: #fff;
+    margin-left: 50px;
+    fill:#fff;
+}
+.row .col .fl{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.shopee-mall .carousel-inner .carousel-item img{
+    width: 100%;
+    height: 350px;
+}
+.shopee-mall .row p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.shopee-mall .card img{
+    width:100px;
+    height: 102px;
+}
+.search-hot {
+    background-color: rgba(231, 226, 226, 0.963);
+    margin-top: 20px;
+}
+.search-hot .card .sr img {
+    width: 170px;
+    height: 170px ;
+}
+footer .first .hd{
+    margin-left: 26px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+footer p,a {
+    font-size: .770rem;
+    color:rgba(41, 39, 39, 0.623);
+}
+footer a:hover{
+    color:#ee4d2d;
+}
+footer .second {
+    height: 390px;
+    padding-top: 50px;
+    background-color: rgba(192, 184, 184, 0.082);
+}
+footer .third {
+    height: 70px;
+    margin-top: 20px;
+}
+footer hr:not([size]) {
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 75px;
+    color:#bcb7b6a2;
+}
+footer .four .logo {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 450px;
+}
+footer .four .logo .img-1{
+    margin-right: 30px;
+}
+footer .four .logo .img-2{
+    margin-right: 30px;
+}
+footer .copy-right{
+    font-size:xx-small;
+}
+
