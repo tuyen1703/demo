@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="EN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="styles.css">
     <title>Shopee Việt Nam | Mua và Bán Trực tuyến</title>
 </head>
+<script>
+  alert("Chào mừng đến với Cửa hàng trực tuyến Shopee!")
+</script>
 <body>
     <header>
         <div class="menu1">
@@ -52,13 +55,72 @@
                         </ul>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Đăng nhập</a>
+                        <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Đăng nhập</a>
                       </li>
                       <div class="vl"></div>
                       <li class="nav-item">
-                        <a class="nav-link">Đăng ký</a>
+                        <a href="#" class="nav-link">Đăng ký</a>
                       </li>
                 </ul>
+            </div>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                  <div style="margin-bottom: -30px;" class="title">
+                    <p style="font-size:25px; margin-left: 105px; margin-bottom: -10px;" class="text-center">Đăng nhập</p>
+                    <hr style="margin-left:105px;">
+                  </div>
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <div class="row">
+                <div class="logo">
+                  <a href="index.html"><img style="width: 70%; height: 100%; margin-left: 27px; padding-bottom: 10px;" src="images/logo-s.png"></a>
+                </div>
+                </div>
+                <div class="form-floating mb-3">
+                  <input style="width: 90%; margin-left: 16px; height: 40px;" type="email" class="form-control rounded-0" id="floatingInput" placeholder="name@example.com">
+                  <label style="font-size: 15px; margin-left: 20px; margin-top: -7px;" class="text-muted" for="floatingInput">Email/Số điện thoại/Tên đăng nhập</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input style="width: 90%; margin-left: 16px; height: 40px;" type="email" class="form-control rounded-0" id="floatingInput" placeholder="name@example.com">
+                  <label style="font-size: 15px; margin-left: 20px; margin-top: -7px;" class="text-muted" for="floatingInput">Mật khẩu</label>
+                </div>
+                <div class="row">
+                  <div class="col-auto">
+                    <div style="margin-left: 20px;" class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault"></label>
+                    </div>
+                </div>
+                  <div class="col-auto">
+                      <p style="margin-left: -20px;" class="text-muted">Nhớ mật khẩu</p>
+                  </div>
+                  <a href="thanhtoan.html"><button style="background-color: #ee4d2d;width: 90%; margin-left: 16px;" type="submit" class="btn btn-danger mb-3 a rounded-0">Đăng nhập</button></a>
+                  <div class="row">
+                    <div style="margin-left: 20px; margin-top: -10px;" class="col text-start">
+                      <a class="text-primary" href="#">Quên mật khẩu</a>
+                    </div>
+                    <div style="margin-top: -10px;" class="col text-end text-primary">
+                      <a class="text-primary" href="#">Đăng nhập với SMS</a>
+                    </div>
+                    <hr style="margin-left:25px; width: 90%;"><br>
+                    <div style="margin-left: 25px;" class="row">
+                      <div class="col">
+                        <button style="border: none; font-size: 25px;" type="button" class="btn btn-outline-secondary"><i class="bi bi-facebook text-primary"></i></button>
+                      </div>
+                      <div class="col">
+                        <button style="color: rgb(44, 192, 145); border: none; font-size: 25px;" type="button" class="btn btn-outline-secondary"><i class="bi bi-google"></i></button>
+                      </div>
+                      <div class="col">
+                        <button style="border: none; font-size: 25px;" type="button" class="btn btn-outline-secondary"><i class="bi bi-apple text-dark"></i></button>
+                      </div>
+                    </div>
+                    <p style="margin-top: 20px; margin-left: 55px;" class="text-muted">Bạn mới biết đến Shopee? <a style="color:#ee4d2d; font-size: 15px;" href="#">Đăng ký</a></p>
+                  </div>
+                </div>
+              </div>
             </div>
         </div>
         <div class="menu2">
@@ -98,7 +160,7 @@
                       </ul>
                     </div>
                 </div>
-                <div class="col-md-2"><a class="bi bi-cart2 buy" href="#"></a></div>
+                <div class="col-md-2"><a class="bi bi-cart2 buy" href="giohang.html"></a></div>
               </div>
         </div>
         </div>
@@ -533,131 +595,111 @@
         </div>
         <div class="row row-cols-1 row-cols-md-5 g-1">
           <div class="col">
-            <div style="border: 1px solid #ee4d2d;" class="card">
+            <div style="border: 1px solid #ee4d2d;" class="card rounded-0">
               <img style="padding-top: 10px; width: 100%; height: 100%;" src="images\content-img.jpg" class="card-img-top" alt="">
               <div class="card-body">
-                <h5 class="card-title">Váy cưới cao cấp</h5>
-                <p class="card-text">
-                  <p class="text-danger">₫ 500.000</p>
-                  <a href="trangchitiet.html"><button type="button" class="btn btn-outline-danger rounded-0"><i class="bi bi-cart-plus-fill"></i> Mua ngay</button></a>
-                </p>
+                <h5>Váy cưới cao cấp</h5>
+                  <span class="text-danger">₫ 500.000</span>
+                  <a href="trangchitiet.html"><button style="width:200px; margin-top: 10px;" type="button" class="btn btn-outline-danger rounded-0"><i class="bi bi-cart-plus-fill"></i> Thêm vào giỏ hàng</button></a>
               </div>
             </div>
           </div>
           <div class="col">
-            <div style="border: 1px solid #ee4d2d;" class="card">
+            <div style="border: 1px solid #ee4d2d;" class="card rounded-0">
               <img style="padding-top: 10px; width: 100%; height: 100%;" src="images\sr10.jpg" class="card-img-top" alt="">
               <div class="card-body">
-                <h5 class="card-title">Váy cưới chữ X</h5>
-                <p class="card-text">
-                  <p class="text-danger">₫ 3.000.000</p>
-                  <a href="#"><button type="button" class="btn btn-outline-danger rounded-0"><i class="bi bi-cart-plus-fill"></i> Mua ngay</button></a>
-                </p>
+                <h5>Váy cưới chữ X</h5>
+                  <span class="text-danger">₫ 3.000.000</span>
+                  <button style="width:200px; margin-top: 10px;" type="button" class="btn btn-outline-danger rounded-0"><i class="bi bi-cart-plus-fill"></i> Thêm vào giỏ hàng</button>
               </div>
             </div>
           </div>
           <div class="col">
-            <div style="border: 1px solid #ee4d2d;" class="card">
+            <div style="border: 1px solid #ee4d2d;" class="card rounded-0">
               <img style="padding-top: 10px; width: 100%; height: 100%;" src="images\sr11.jpg" class="card-img-top" alt="">
               <div class="card-body">
-                <h5 class="card-title">Váy cưới đuôi cá</h5>
-                <p class="card-text">
-                  <p class="text-danger">₫ 4.100.000</p>
-                  <a href="trangchitiet.html"><button type="button" class="btn btn-outline-danger rounded-0"><i class="bi bi-cart-plus-fill"></i> Mua ngay</button></a>
-                </p>
+                <h5>Váy cưới đuôi cá</h5>
+                  <span class="text-danger">₫ 4.100.000</span>
+                  <button style="width:200px; margin-top: 10px;" type="button" class="btn btn-outline-danger rounded-0"><i class="bi bi-cart-plus-fill"></i> Thêm vào giỏ hàng</button>
               </div>
             </div>
           </div>
           <div class="col">
-            <div style="border: 1px solid #ee4d2d;" class="card">
+            <div style="border: 1px solid #ee4d2d;" class="card rounded-0">
               <img style="padding-top: 10px; width: 100%; height: 100%;" src="images\sr12.jpg" class="card-img-top" alt="">
               <div class="card-body">
-                <h5 class="card-title">Váy cưới vai ngang</h5>
-                <p class="card-text">
-                  <p class="text-danger">₫ 1.800.000</p>
-                  <a href="trangchitiet.html"><button type="button" class="btn btn-outline-danger rounded-0"><i class="bi bi-cart-plus-fill"></i> Mua ngay</button></a>
-                </p>
+                <h5>Váy cưới vai ngang</h5>
+                  <span class="text-danger">₫ 1.800.000</span>
+                  <button style="width:200px; margin-top: 10px;" type="button" class="btn btn-outline-danger rounded-0"><i class="bi bi-cart-plus-fill"></i> Thêm vào giỏ hàng</button>
               </div>
             </div>
           </div>
           <div class="col">
-            <div style="border: 1px solid salmon;" class="card">
+            <div style="border: 1px solid salmon;" class="card rounded-0">
               <img style="padding-top: 10px; width: 100%; height: 100%;" src="images\sr17.jpg" class="card-img-top" alt="">
               <div class="card-body">
-                <h5 class="card-title">Váy cưới kết đá pha le</h5>
-                <p class="card-text">
-                  <p class="text-danger">₫ 2.210.000</p>
-                  <a href="trangchitiet.html"><button type="button" class="btn btn-outline-danger rounded-0"><i class="bi bi-cart-plus-fill"></i> Mua ngay</button></a>
-                </p>
+                <h5>Váy cưới kết đá pha le</h5>
+                  <span class="text-danger">₫ 2.210.000</span>
+                  <button style="width:200px; margin-top: 10px;" type="button" class="btn btn-outline-danger rounded-0"><i class="bi bi-cart-plus-fill"></i> Thêm vào giỏ hàng</button>
               </div>
             </div>
           </div>
       </div>
       <div style="padding-top: 5px;" class="row row-cols-1 row-cols-md-5 g-1">
         <div class="col">
-          <div style="border: 1px solid #ee4d2d;" class="card">
+          <div style="border: 1px solid #ee4d2d;" class="card rounded-0">
             <img style="padding-top: 10px; width: 100%; height: 100%;" src="images\sr5.jpg" class="card-img-top" alt="">
             <div class="card-body">
-              <h5 class="card-title">Váy cưới đính kết đá</h5>
-              <p class="card-text">
-                <p class="text-danger">₫ 2.200.000</p>
-                <a href="#"><button type="button" class="btn btn-outline-danger rounded-0"><i class="bi bi-cart-plus-fill"></i> Mua ngay</button></a>
-              </p>
+              <h5>Váy cưới đính kết đá</h5>
+                <span class="text-danger">₫ 2.200.000</span>
+                <button style="width:200px; margin-top: 10px;" type="button" class="btn btn-outline-danger rounded-0"><i class="bi bi-cart-plus-fill"></i> Thêm vào giỏ hàng</button>
             </div>
           </div>
         </div>
         <div class="col">
-          <div style="border: 1px solid #ee4d2d;" class="card">
+          <div style="border: 1px solid #ee4d2d;" class="card rounded-0">
             <img style="padding-top: 10px; width: 100%; height: 100%;" src="images\sr6.jpg" class="card-img-top" alt="">
             <div class="card-body">
-              <h5 class="card-title">Váy cưới cổ vuông</h5>
-              <p class="card-text">
-                <p class="text-danger">₫ 2.100.000</p>
-                <a href="#"><button type="button" class="btn btn-outline-danger rounded-0"><i class="bi bi-cart-plus-fill"></i> Mua ngay</button></a>
-              </p>
+              <h5>Váy cưới cổ vuông</h5>
+                <span class="text-danger">₫ 2.100.000</span>
+                <button style="width:200px; margin-top: 10px;" type="button" class="btn btn-outline-danger rounded-0"><i class="bi bi-cart-plus-fill"></i> Thêm vào giỏ hàng</button>
             </div>
           </div>
         </div>
         <div class="col">
-          <div style="border: 1px solid #ee4d2d;" class="card">
+          <div style="border: 1px solid #ee4d2d;" class="card rounded-0">
             <img style="padding-top: 10px; width: 100%; height: 100%;" src="images\sr16.jpg" class="card-img-top" alt="">
             <div class="card-body">
-              <h5 class="card-title">Váy cưới đính hoa</h5>
-              <p class="card-text">
-                <p class="text-danger">₫ 1.960.000</p>
-                <a href="#"><button type="button" class="btn btn-outline-danger rounded-0"><i class="bi bi-cart-plus-fill"></i> Mua ngay</button></a>
-              </p>
+              <h5>Váy cưới đính hoa</h5>
+                <span class="text-danger">₫ 1.960.000</span>
+                <button style="width:200px; margin-top: 10px;" type="button" class="btn btn-outline-danger rounded-0"><i class="bi bi-cart-plus-fill"></i> Thêm vào giỏ hàng</button>
             </div>
           </div>
         </div>
         <div class="col">
-          <div style="border: 1px solid #ee4d2d;" class="card">
+          <div style="border: 1px solid #ee4d2d;" class="card rounded-0">
             <img style="padding-top: 10px; width: 100%; height: 100%;" src="images\sr15.jpg" class="card-img-top" alt="">
             <div class="card-body">
-              <h5 class="card-title">Váy cưới cổ tim</h5>
-              <p class="card-text">
-                <p class="text-danger">₫ 2.100.000</p>
-                <a href="#"><button type="button" class="btn btn-outline-danger rounded-0"><i class="bi bi-cart-plus-fill"></i> Mua ngay</button></a>
-              </p>
+              <h5>Váy cưới cổ tim</h5>
+                <span class="text-danger">₫ 2.100.000</span>
+                <button style="width:200px; margin-top: 10px;" type="button" class="btn btn-outline-danger rounded-0"><i class="bi bi-cart-plus-fill"></i> Thêm vào giỏ hàng</button>
             </div>
           </div>
         </div>
         <div class="col">
-          <div style="border: 1px solid #ee4d2d;" class="card">
+          <div style="border: 1px solid #ee4d2d;" class="card rounded-0">
             <img style="padding-top: 10px; width: 100%; height: 100%;" src="images\sr14.jpg" class="card-img-top" alt="">
             <div class="card-body">
-              <h5 class="card-title">Váy cưới cúp ngực</h5>
-              <p class="card-text">
-                <p class="text-danger">₫ 3.000.000</p>
-                <a href="#"><button type="button" class="btn btn-outline-danger rounded-0"><i class="bi bi-cart-plus-fill"></i> Mua ngay</button></a>
-              </p>
+              <h5>Váy cưới cúp ngực</h5>
+                <span class="text-danger">₫ 3.000.000</span>
+                <button style="width:200px; margin-top: 10px;" type="button" class="btn btn-outline-danger rounded-0"><i class="bi bi-cart-plus-fill"></i> Thêm vào giỏ hàng</button>
             </div>
           </div>
         </div>
     </div>
       <hr style="width:100%; height:1px; margin-left:2px; color:#817f7fc5">
-      <footer>
-        <div style="margin:20px;margin-left: 10px; margin-right:10px; background-color: #b19c9c1e;" class="second">
+      <footer >
+        <div style="margin:20px;margin-left: 10px; margin-right:10px; background-color: #b19c9c1e; border-top: 2px solid #ee4d2d;" class="second">
         <div class="row">
           <div class="col">
             <a class="text-muted" href="#"><strong>CHĂM SÓC KHÁCH HÀNG</strong></a><br>
